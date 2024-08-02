@@ -1,0 +1,3 @@
+D:/Usaco Problems/Simulation/Mixing Milk/cmake-build-debug/CMakeFiles/Mixing_Milk.dir
+D:/Usaco Problems/Simulation/Mixing Milk/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Usaco Problems/Simulation/Mixing Milk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
