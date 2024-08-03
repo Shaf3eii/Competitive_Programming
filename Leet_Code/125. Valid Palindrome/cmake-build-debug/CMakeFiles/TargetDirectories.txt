@@ -1,0 +1,3 @@
+D:/IEEE_Tasks/125. Valid Palindrome/cmake-build-debug/CMakeFiles/125__Valid_Palindrome.dir
+D:/IEEE_Tasks/125. Valid Palindrome/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IEEE_Tasks/125. Valid Palindrome/cmake-build-debug/CMakeFiles/rebuild_cache.dir

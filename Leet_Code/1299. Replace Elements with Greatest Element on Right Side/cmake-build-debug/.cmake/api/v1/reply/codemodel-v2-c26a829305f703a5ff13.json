@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1299__Replace_Elements_with_Greatest_Element_on_Right_Side",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1299__Replace_Elements_with_Greatest_Element_on_Right_Side::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1299__Replace_Elements_with_Greatest_Element_on_Right_Side-Debug-7e2839906906b4f42642.json",
+					"name" : "1299__Replace_Elements_with_Greatest_Element_on_Right_Side",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/IEEE_Tasks/1299. Replace Elements with Greatest Element on Right Side/cmake-build-debug",
+		"source" : "D:/IEEE_Tasks/1299. Replace Elements with Greatest Element on Right Side"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
