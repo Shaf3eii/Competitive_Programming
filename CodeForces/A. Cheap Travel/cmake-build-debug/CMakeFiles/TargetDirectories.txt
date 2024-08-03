@@ -1,0 +1,3 @@
+D:/CodeForces/A. Cheap Travel/cmake-build-debug/CMakeFiles/A__Cheap_Travel.dir
+D:/CodeForces/A. Cheap Travel/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CodeForces/A. Cheap Travel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

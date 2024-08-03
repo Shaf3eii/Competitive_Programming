@@ -1,0 +1,3 @@
+D:/CodeForces/F. Cooking Time/cmake-build-debug/CMakeFiles/F__Cooking_Time.dir
+D:/CodeForces/F. Cooking Time/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CodeForces/F. Cooking Time/cmake-build-debug/CMakeFiles/rebuild_cache.dir

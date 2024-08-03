@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C__Can_I_Square",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "C__Can_I_Square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C__Can_I_Square-Debug-2e433d017845e7cacad7.json",
+					"name" : "C__Can_I_Square",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task1/C. Can I Square/cmake-build-debug",
+		"source" : "D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task1/C. Can I Square"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,3 @@
+D:/IEEE_Tasks/B. Upscaling/cmake-build-debug/CMakeFiles/B__Upscaling.dir
+D:/IEEE_Tasks/B. Upscaling/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IEEE_Tasks/B. Upscaling/cmake-build-debug/CMakeFiles/rebuild_cache.dir

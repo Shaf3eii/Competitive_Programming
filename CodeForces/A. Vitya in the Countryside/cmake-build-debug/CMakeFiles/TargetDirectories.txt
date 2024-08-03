@@ -1,0 +1,3 @@
+D:/CodeForces/A. Vitya in the Countryside/cmake-build-debug/CMakeFiles/A__Vitya_in_the_Countryside.dir
+D:/CodeForces/A. Vitya in the Countryside/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CodeForces/A. Vitya in the Countryside/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/IEEE_Tasks/C. Clock Conversion/cmake-build-debug/CMakeFiles/C__Clock_Conversion.dir
+D:/IEEE_Tasks/C. Clock Conversion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IEEE_Tasks/C. Clock Conversion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

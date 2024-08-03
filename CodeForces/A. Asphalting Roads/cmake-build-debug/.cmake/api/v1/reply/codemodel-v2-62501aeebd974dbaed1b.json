@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "A__Asphalting_Roads",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "A__Asphalting_Roads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A__Asphalting_Roads-Debug-b4993f5049a93e0e6177.json",
+					"name" : "A__Asphalting_Roads",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task2/A. Asphalting Roads/cmake-build-debug",
+		"source" : "D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task2/A. Asphalting Roads"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
