@@ -1,0 +1,3 @@
+D:/Task3/A. Is it rated/cmake-build-debug/CMakeFiles/A__Is_it_rated.dir
+D:/Task3/A. Is it rated/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Is it rated/cmake-build-debug/CMakeFiles/rebuild_cache.dir

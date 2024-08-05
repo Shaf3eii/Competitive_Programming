@@ -1,0 +1,3 @@
+D:/Task3/A. Buy a Shovel/cmake-build-debug/CMakeFiles/A__Buy_a_Shovel.dir
+D:/Task3/A. Buy a Shovel/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Buy a Shovel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

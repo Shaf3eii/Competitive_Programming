@@ -1,0 +1,3 @@
+D:/Task3/A. Andryusha and Socks/cmake-build-debug/CMakeFiles/A__Andryusha_and_Socks.dir
+D:/Task3/A. Andryusha and Socks/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Andryusha and Socks/cmake-build-debug/CMakeFiles/rebuild_cache.dir

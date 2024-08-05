@@ -1,0 +1,3 @@
+D:/Task3/A. Hulk/cmake-build-debug/CMakeFiles/A__Hulk.dir
+D:/Task3/A. Hulk/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Hulk/cmake-build-debug/CMakeFiles/rebuild_cache.dir

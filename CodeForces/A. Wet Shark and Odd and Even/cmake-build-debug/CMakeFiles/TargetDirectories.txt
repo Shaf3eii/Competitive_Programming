@@ -1,0 +1,3 @@
+D:/Task3/A. Wet Shark and Odd and Even/cmake-build-debug/CMakeFiles/A__Wet_Shark_and_Odd_and_Even.dir
+D:/Task3/A. Wet Shark and Odd and Even/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Wet Shark and Odd and Even/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:/Task3/A - Currency System in Geraldion/cmake-build-debug/CMakeFiles/A___Currency_System_in_Geraldion.dir
+D:/Task3/A - Currency System in Geraldion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A - Currency System in Geraldion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

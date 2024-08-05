@@ -1,0 +1,3 @@
+D:/Task3/A. Taymyr is calling you/cmake-build-debug/CMakeFiles/A__Taymyr_is_calling_you.dir
+D:/Task3/A. Taymyr is calling you/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Task3/A. Taymyr is calling you/cmake-build-debug/CMakeFiles/rebuild_cache.dir
