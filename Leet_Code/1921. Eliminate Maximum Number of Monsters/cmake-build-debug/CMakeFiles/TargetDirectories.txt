@@ -1,0 +1,3 @@
+D:/Algorithms Homeworks/Sorting/07 Sorting Homework 2 - 6 Easy to Medium Challenges/1921. Eliminate Maximum Number of Monsters/cmake-build-debug/CMakeFiles/1921__Eliminate_Maximum_Number_of_Monsters.dir
+D:/Algorithms Homeworks/Sorting/07 Sorting Homework 2 - 6 Easy to Medium Challenges/1921. Eliminate Maximum Number of Monsters/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Algorithms Homeworks/Sorting/07 Sorting Homework 2 - 6 Easy to Medium Challenges/1921. Eliminate Maximum Number of Monsters/cmake-build-debug/CMakeFiles/rebuild_cache.dir

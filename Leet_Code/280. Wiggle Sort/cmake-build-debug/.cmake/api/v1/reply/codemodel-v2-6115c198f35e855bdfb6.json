@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "280__Wiggle_Sort",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "280__Wiggle_Sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-280__Wiggle_Sort-Debug-4e2bc1fc31e26bcc6b56.json",
+					"name" : "280__Wiggle_Sort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Algorithms Homeworks/Sorting/07 Sorting Homework 2 - 6 Easy to Medium Challenges/280. Wiggle Sort/cmake-build-debug",
+		"source" : "D:/Algorithms Homeworks/Sorting/07 Sorting Homework 2 - 6 Easy to Medium Challenges/280. Wiggle Sort"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
