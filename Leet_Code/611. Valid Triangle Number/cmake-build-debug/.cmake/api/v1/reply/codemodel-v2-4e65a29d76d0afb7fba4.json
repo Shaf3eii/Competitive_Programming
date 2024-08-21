@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "611__Valid_Triangle_Number",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "611__Valid_Triangle_Number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-611__Valid_Triangle_Number-Debug-ab5853756ce391be2786.json",
+					"name" : "611__Valid_Triangle_Number",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Algorithms Homeworks/Searching/1-4 Medium/611. Valid Triangle Number/cmake-build-debug",
+		"source" : "D:/Algorithms Homeworks/Searching/1-4 Medium/611. Valid Triangle Number"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

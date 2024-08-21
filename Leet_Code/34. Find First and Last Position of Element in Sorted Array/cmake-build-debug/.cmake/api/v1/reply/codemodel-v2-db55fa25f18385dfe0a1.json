@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "34__Find_First_and_Last_Position_of_Element_in_Sorted_Array",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "34__Find_First_and_Last_Position_of_Element_in_Sorted_Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-34__Find_First_and_Last_Position_of_Element_in_Sorted_Array-Debug-d2ac0c2249e5c26aa381.json",
+					"name" : "34__Find_First_and_Last_Position_of_Element_in_Sorted_Array",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Algorithms Homeworks/Searching/1-4 Medium/34. Find First and Last Position of Element in Sorted Array/cmake-build-debug",
+		"source" : "D:/Algorithms Homeworks/Searching/1-4 Medium/34. Find First and Last Position of Element in Sorted Array"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
