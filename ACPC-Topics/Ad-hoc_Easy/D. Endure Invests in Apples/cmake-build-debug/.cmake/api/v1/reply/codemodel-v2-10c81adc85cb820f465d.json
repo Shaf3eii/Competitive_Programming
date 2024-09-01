@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "D__Endure_Invests_in_Apples",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "D__Endure_Invests_in_Apples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D__Endure_Invests_in_Apples-Debug-ed47f0b6bd943cbf6e03.json",
+					"name" : "D__Endure_Invests_in_Apples",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/D. Endure Invests in Apples/cmake-build-debug",
+		"source" : "D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/D. Endure Invests in Apples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

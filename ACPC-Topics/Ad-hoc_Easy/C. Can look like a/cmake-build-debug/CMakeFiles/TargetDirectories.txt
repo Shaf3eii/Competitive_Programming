@@ -1,0 +1,3 @@
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/C. Can look like a/cmake-build-debug/CMakeFiles/C__Can_look_like_a.dir
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/C. Can look like a/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/C. Can look like a/cmake-build-debug/CMakeFiles/rebuild_cache.dir

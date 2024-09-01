@@ -1,0 +1,3 @@
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/D. Endure Invests in Apples/cmake-build-debug/CMakeFiles/D__Endure_Invests_in_Apples.dir
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/D. Endure Invests in Apples/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CP Solution/ACPC-Topics/Ad-hoc_Easy/D. Endure Invests in Apples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
