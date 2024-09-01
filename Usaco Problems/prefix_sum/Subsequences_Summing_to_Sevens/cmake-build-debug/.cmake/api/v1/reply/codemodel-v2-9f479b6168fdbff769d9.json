@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Subsequences_Summing_to_Sevens",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Subsequences_Summing_to_Sevens::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Subsequences_Summing_to_Sevens-Debug-35085fbd4fb463b7a723.json",
+					"name" : "Subsequences_Summing_to_Sevens",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CP Solution/Usaco Problems/prefix_sum/Subsequences_Summing_to_Sevens/cmake-build-debug",
+		"source" : "D:/CP Solution/Usaco Problems/prefix_sum/Subsequences_Summing_to_Sevens"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
