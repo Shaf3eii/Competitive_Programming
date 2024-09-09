@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "404__Sum_of_Left_Leaves",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "404__Sum_of_Left_Leaves::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-404__Sum_of_Left_Leaves-Debug-bc9d8797494ea96420e3.json",
+					"name" : "404__Sum_of_Left_Leaves",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DS Homeworks/Trees/BT_HW_1-6_Easy/404. Sum of Left Leaves/cmake-build-debug",
+		"source" : "D:/DS Homeworks/Trees/BT_HW_1-6_Easy/404. Sum of Left Leaves"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

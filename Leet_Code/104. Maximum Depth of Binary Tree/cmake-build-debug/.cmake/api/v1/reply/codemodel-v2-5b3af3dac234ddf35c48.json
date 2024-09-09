@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "104__Maximum_Depth_of_Binary_Tree",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "104__Maximum_Depth_of_Binary_Tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-104__Maximum_Depth_of_Binary_Tree-Debug-1b50e4322d3afec5dd6b.json",
+					"name" : "104__Maximum_Depth_of_Binary_Tree",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DS Homeworks/Trees/BT_HW_1-6_Easy/104. Maximum Depth of Binary Tree/cmake-build-debug",
+		"source" : "D:/DS Homeworks/Trees/BT_HW_1-6_Easy/104. Maximum Depth of Binary Tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
