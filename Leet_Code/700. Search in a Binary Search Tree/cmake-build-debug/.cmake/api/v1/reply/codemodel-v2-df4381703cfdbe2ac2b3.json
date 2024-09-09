@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "700__Search_in_a_Binary_Search_Tree",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "700__Search_in_a_Binary_Search_Tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-700__Search_in_a_Binary_Search_Tree-Debug-0557511ed4e285e31276.json",
+					"name" : "700__Search_in_a_Binary_Search_Tree",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DS Homeworks/Trees/03 BST Homework 1 - 2 Easy Challenges/700. Search in a Binary Search Tree/cmake-build-debug",
+		"source" : "D:/DS Homeworks/Trees/03 BST Homework 1 - 2 Easy Challenges/700. Search in a Binary Search Tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.27)
+project(108__Convert_Sorted_Array_to_Binary_Search_Tree)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(108__Convert_Sorted_Array_to_Binary_Search_Tree main.cpp)
