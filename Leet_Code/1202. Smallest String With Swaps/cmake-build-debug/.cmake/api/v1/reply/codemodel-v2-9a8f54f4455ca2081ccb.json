@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "1202__Smallest_String_With_Swaps",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1202__Smallest_String_With_Swaps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1202__Smallest_String_With_Swaps-Debug-b5df44beec425975bd98.json",
+					"name" : "1202__Smallest_String_With_Swaps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Algorithms Homeworks/Graphs/DFS/1202. Smallest String With Swaps/cmake-build-debug",
+		"source" : "D:/Algorithms Homeworks/Graphs/DFS/1202. Smallest String With Swaps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
