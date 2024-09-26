@@ -39,7 +39,7 @@ public:
                 sort(ind.begin(),ind.end());
                 sort(res.begin(),res.end());
                 for(int d = 0 ; d < (int)ind.size() ; ++d)
-                    s[d] = res[d];
+                    s[ind[d]] = res[d];
             }
         }
         return s;
