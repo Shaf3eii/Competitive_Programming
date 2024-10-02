@@ -15,7 +15,7 @@ public:
         compression(comp);
     }
     int get_index(long long val) {
-        return lower_bound(comp.begin(), comp.end(),comp[val]) - comp.begin();
+        return lower_bound(comp.begin(), comp.end(), val) - comp.begin(); // if we need to make it 1-based index add + 1
     }
     long long get_origin(int idx) {
         return comp[idx];
