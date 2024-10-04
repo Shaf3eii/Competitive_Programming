@@ -4,18 +4,6 @@
 
 //   https://atcoder.jp/contests/dp/tasks/dp_a
 
-//   "From the river to the sea, Palestine is Free"
-
-// Seek knowledge from the Cradle to the Grave.
-
-// Never Give up -- Life is too short to make mistakes and learn from them -- Learn from other's mistakes
-
-// Remember you were always a novice when you started so never be rude to some one
-
-// Aim Big and strive hard to get it
-
-// One has his own set of talents and anyone can do anything so never compare yourself to anybody
-
 //#include <stdio.h>
 #include <bits/stdc++.h>
 
