@@ -1,3 +1,0 @@
-D:/CP Solution/DP_problems/Tribonacci/cmake-build-debug/CMakeFiles/Tribonacci.dir
-D:/CP Solution/DP_problems/Tribonacci/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CP Solution/DP_problems/Tribonacci/cmake-build-debug/CMakeFiles/rebuild_cache.dir
