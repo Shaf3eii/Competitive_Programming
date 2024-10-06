@@ -1,45 +1,64 @@
 //      ﷽
- 
+
 //       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
- 
+
 //   "From the river to the sea, Palestine is Free"
- 
+
+// Seek knowledge from the Cradle to the Grave.
+
 // Never Give up -- Life is too short to make mistakes and learn from them -- Learn from other's mistakes
- 
+
 // Remember you were always a novice when you started so never be rude to some one
- 
+
 // Aim Big and strive hard to get it
- 
+
 // One has his own set of talents and anyone can do anything so never compare yourself to anybody
- 
+
 #include <bits/stdc++.h>
- 
+
 using namespace std;
- 
+
+//#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
+//typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
+
 // 48-57 -> 0-9  65-90 -> A-Z 97-122 -> a-z
 #define Free_Palestine  ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
- 
+#define i64             long long
+#define all(a)   a.begin(),a.end()
+#define all_r(a)   a.rbegin(),a.rend()
+#define vi         vector<int>
+
 //  وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى
- 
+
 //const int dx[] = {0,0,1,-1};
 //const int dy[] = {1,-1,0,0};
 //const int dx[] = {0, 1, 1, 1, 0, -1, -1, -1};
 //const int dy[] = {1, 1, 0, -1, -1, -1, 0, 1};
- 
- 
+//const i64 mod = 1e9 + 7;
+
 void solve() {
-    string s;
-    cin >> s;
-    int n = (int)s.size();
-    int arr[n];
-    arr[0] = 1;
-    int max_seq = 1;
-    for(int i = 1 ; i < n ; ++i)
+    int n;
+    cin >> n;
+    vi apples(n);
+    for(auto &i : apples)
+        cin >> i;
+    i64 Min_dif = INT_MAX;
+    for(int mask = 0 ; mask < (1 << n) ; ++mask)
     {
-        arr[i] = 1 + (s[i] == s[i - 1] ? arr[i - 1] : 0);
-        max_seq = max(max_seq,arr[i]);
+        i64 cur = 0;
+        for(int i = 0 ; i < n ; ++i)
+        {
+            if(mask & (1 << i))
+                cur += apples[i];
+            else
+                cur -= apples[i];
+        }
+        if(cur < 0)
+            continue;
+        Min_dif = min(Min_dif,cur);
     }
-    cout << max_seq;
+    cout << Min_dif;
 }
 
 signed main() {
@@ -49,9 +68,9 @@ signed main() {
     freopen("output.txt", "w", stdout);
 #endif
     int t = 1;
-    //cin >> t;
+//    cin >> t;
     while (t--)
         solve();
- 
+
     return 0;
 }
