@@ -29,7 +29,6 @@ using namespace std;
 #define Time cerr << "Time Taken: " << (float)clock() / CLOCKS_PER_SEC << " Secs" << "\n";
 #define sz(s) (int)(s).size()
 
-
 //  وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى
 
 //const int dx[] = {0, 0, 1, -1};
