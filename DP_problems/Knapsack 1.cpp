@@ -28,7 +28,6 @@ using namespace std;
 #define INF 2'000'000'000
 #define sz(s) (int)(s).size()
 
-
 //  وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى
 
 //const int dx[] = {0, 0, 1, -1};
