@@ -11,10 +11,16 @@ void countSort(vector<int>& a) {
         freq[i]++;
     for(int i = 0, idx = 0 ; i < Max + 1 ; i++)
         while(freq[i]--)
-            arr[idx++] = i;
+            a[idx++] = i;
 }
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for(auto& i : arr) cin >> i;
+    countSort(arr);
+    for(auto& i : arr)
+        cout << i << ' ';
     return 0;
 }
