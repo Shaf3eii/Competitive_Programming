@@ -35,38 +35,22 @@ using namespace std;
 //const int dy[] = {1, 1, 0, -1, -1, -1, 0, 1};
 //const int N = 1e3 + 5;
 
-int n,k;
-vi mach(2e5 + 5,0);
-
-bool can(int m)
-{
-    int p = 0;
-    for(int i = 0 ; i < n ; ++i)
-    {
-        p += (m / mach[i]);
-        if(p >= k)
-            return true;
-    }
-    return false;
-}
-
 void Erz3() {
-    cin >> n >> k;
-    for(int i = 0 ; i < n ; ++i)
-        cin >> mach[i];
-    int low = 0 , high = 1e18 , ans = 0 , mid;
-    while(low <= high)
-    {
-        mid = low + (high - low) / 2;
-        if(can(mid))
-        {
-            ans = mid;
-            high = mid - 1;
-        }
-        else
-            low = mid + 1;
+    int n,x;
+    cin >> n >> x;
+    vi arr(n);
+    cin >> arr;
+    i64 cur = 0 , cnt = 0;
+    int l = 0 , r = 0;
+    while(r < n) {
+//        cout << cur << '\n';
+        cur += arr[r];
+        while(cur > x && l <= r)
+            cur -= arr[l] , l++;
+        if(cur == x) cnt++;
+        r++;
     }
-    cout << ans;
+    cout << cnt;
 }
 
 signed main() {
