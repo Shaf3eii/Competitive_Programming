@@ -2,6 +2,8 @@
 
 //       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
 
+//   https://atcoder.jp/contests/arc087/tasks/arc087_a
+
 //#include <stdio.h>
 #include <bits/stdc++.h>
 
