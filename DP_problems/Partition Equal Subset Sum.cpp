@@ -2,6 +2,8 @@
 
 //       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
 
+//      https://leetcode.com/problems/partition-equal-subset-sum/description/
+
 //#include <stdio.h>
 #include <bits/stdc++.h>
 
