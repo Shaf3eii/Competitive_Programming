@@ -2,6 +2,8 @@
 
 //       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
 
+//   https://atcoder.jp/contests/arc087/tasks/arc087_a
+
 //#include <stdio.h>
 #include <bits/stdc++.h>
 
@@ -51,6 +53,29 @@ void Erz3() {
     }
 
     cout << cnt;
+}
+
+// Another Approach using vector with simple observation
+void Erz3() {
+    int n, cnt = 0;
+    cin >> n;
+    vi freq(n + 1, 0);
+    for(int i = 0, x ; i < n ; ++i) {
+        cin >> x;
+        if(x > n) { // If element is greater than 𝑛, it won't make a good sequence
+            cnt++;
+            continue;
+        }
+        freq[x]++;
+    }
+//    for(int i = 1 ; i <= n ; ++i) cout << freq[i] << " \n"[i == n];
+    for(int i = 1 ; i <= n ; ++i) {
+        if(freq[i] != i && freq[i]) {
+            if(freq[i] < i) cnt += freq[i];
+            else cnt += freq[i] - i;
+        }
+    }
+    cout << cnt << '\n';
 }
 
 signed main() {
