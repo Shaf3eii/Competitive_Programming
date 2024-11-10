@@ -1,3 +1,9 @@
+//      ﷽
+
+//       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
+
+//  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
+
 #include <bits/stdc++.h>
 using namespace std;
 
