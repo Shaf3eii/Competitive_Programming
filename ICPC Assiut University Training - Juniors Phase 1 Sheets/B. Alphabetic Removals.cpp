@@ -57,6 +57,37 @@ void Erz3() {
     }
 }
 
+
+
+// Another Solution 
+void Erz3() {
+    int freq[26] { };
+    int n, k;
+    cin >> n >> k;
+    string s;
+    cin >> s;
+    for (int i = 0 ; i < n ; ++i) {
+        freq[s[i] - 'a']++;
+    }
+    for (int i = 0 ; i < k ; ++i) {
+        for (int j = 0 ; j < 26 ; ++j) {
+            if (freq[j]) {
+                freq[j]--;
+                break;
+            }
+        }
+    }
+    string res;
+    for (int i = n - 1 ; i >= 0 ; i--) {
+        if (freq[s[i] - 'a']) {
+            res += s[i];
+            freq[s[i] - 'a']--;
+        }
+    }
+    reverse(all(res));
+    cout << res;
+}
+
 signed main() {
     Wl3_ElNor
 #ifndef ONLINE_JUDGE
