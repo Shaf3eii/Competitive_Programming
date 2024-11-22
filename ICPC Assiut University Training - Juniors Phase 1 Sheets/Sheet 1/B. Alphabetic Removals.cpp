@@ -5,7 +5,6 @@
 ///     However long the night ,the dawn will break.
 ///     ACPC Next Year, ISA
 
-//#include <stdio.h>
 #include <bits/stdc++.h>
 
 using namespace std;
