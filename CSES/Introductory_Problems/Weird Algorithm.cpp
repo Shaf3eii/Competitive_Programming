@@ -1,119 +1,70 @@
-#include <bits/stdc++.h>
+//      ﷽
 
-// 48-57 -> 0-9  65-90 -> A-Z 97-122 -> a-z
-#define Free_Palestine  ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
-#define int             long long
-#define ld              long double
-#define dd              double
-#define ef              else if
-#define vi              vector<int>
-#define vl              vector<long long>
-#define vs              vector<string>
-#define vpi             vector<pair<int,int>>
-#define si              set<int>
-#define all(v) (v).begin(), (v).end()
-#define Rall(v) (v).rbegin(), (v).rend()
-#define loop(n)  for(int i = 0 ; i < n ; ++i)
-#define endl     '\n'
-#define YES             cout<<"YES"
-#define NO              cout<<"NO"
-#define Yes             cout<<"Yes"
-#define No              cout<<"No"
-#define yes             cout<<"yes"
-#define no              cout<<"no"
-#define pb              push_back
-#define sp              " "
-#define fi              first
-#define se              second
-#define what_is(x) cerr << #x << " is " << x << endl;
+//       وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى
+
+//       فَالجُهدُ يُثمِرُ إنْ تَضافَرَ صَفوُهُ، والعَزمُ يَرفعُ صَرحَ كُلِّ بُنيانِ.
+
+///     However long the night ,the dawn will break.
+///     ACPC Next Year, ISA
+
+//#include <stdio.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int lcm(int a, int b)
-{
-    return (a / gcd(a, b)) * b;
-}
+//#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
+//typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
 
-bool Is_Prime(int p)
-{
-    if(p < 2)
-        return false;
-    if(p == 2)
-        return true;
-    if(p % 2 == 0)
-        return false;
+// 48-57 -> 0-9  65-90 -> A-Z 97-122 -> a-z
+#define Wl3_ElNor       ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
+#define i64             long long
+#define int             long long
+#define all(a)          a.begin(),a.end()
+#define all_r(a)        a.rbegin(),a.rend()
+#define vi              vector<int>
+#define ef              else if
+#define retv(x)         return void(cout << (x) << '\n')
+#define sp              " "
+#define SetPre(n, x)    cout << fixed << setprecision(n) << x << '\n'
+#define Mod             1'000'000'007
+#define INF             2'000'000'000
+#define sz(s)           (int)(s).size()
+#define debug(x)        cout << #x << ": " << (x) << "\n";
+#define EPS             1e-9
+#define PI              acos(-1)
 
-    int limit = sqrt(p);
-    for(int i = 3; i <= limit; i += 2)
-    {
-        if (p % i == 0)
-            return false;
-    }
-    return true;
-}
-
-// Debugging
-#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
-
-void err(istream_iterator<string> it) {}
-template<typename T, typename... Args>
-void err(istream_iterator<string> it, T a, Args... args) {
-    cerr << *it << " = " << a << endl;
-    err(++it, args...);
-}
-
-template<typename T>
-ostream& operator<<(ostream& os, const vector<T>& v)
-{
-    for(const auto& i : v) os << i << ' ';
-    return os;
-}
-
-template<typename T>
-istream& operator>>(istream& is, vector<T>& v)
-{
-    for(auto& i : v) is >> i;
-    return is;
-}
-
-//  وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى
-
-//const int dx[] = {0,0,1,-1};
-//const int dy[] = {1,-1,0,0};
+//const int dx[] = {0, 0, 1, -1};
+//const int dy[] = {1, -1, 0, 0};
 //const int dx[] = {0, 1, 1, 1, 0, -1, -1, -1};
 //const int dy[] = {1, 1, 0, -1, -1, -1, 0, 1};
+//const int N = 2e5+ 5;
 
-void _3n_1(int n)
-{
-    // base case
-    if(n <= 1)
-    {
-        cout << 1 << endl;
-        return;
-    }
-    // transition
-    cout << n << sp;
-    (n & 1 ? _3n_1(n * 3 + 1) : _3n_1(n / 2));
+int n;
+
+void printWierdAlgorithm(int curValue) {
+    if (curValue == 1) return cout << "1\n" , void();
+
+    cout << curValue << sp;
+
+    (curValue & 1 ? printWierdAlgorithm(3 * curValue + 1) : printWierdAlgorithm(curValue / 2));
 }
 
-void solve() {
-    int n;cin >> n;
-    _3n_1(n);
+void Erz3() {
+    cin >> n;
+    printWierdAlgorithm(n);
 }
 
-signed main()
-{
-    Free_Palestine
+signed main() {
+    Wl3_ElNor
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 #endif
     int t = 1;
-    //cin >> t;
+//    cin >> t;
     while (t--)
-    {
-        solve();
-        cout << endl;
-    }
+        Erz3();
+
     return 0;
 }
